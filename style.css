@@ -2,4 +2,36 @@ body {
   margin: 2em;
   user-select: none;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  background: rgb(84, 2, 143);
+  background: linear-gradient(180deg, rgba(84, 2, 143, 1) 30%, rgba(5, 6, 189, 1) 74%, rgba(131, 37, 116, 1) 86%);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+h1,
+h2 {
+  color: whitesmoke;
+  margin-bottom: 2em;
+}
+
+.activity-btn {
+  width: 10em;
+  height: 10em;
+  border-radius: 50%;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: cornflowerblue;
+  border: 2px solid black;
+}
+
+.activity-btn:hover {
+  background-color: limegreen;
+  transform: scale(1.1);
+  cursor: pointer;
 }
